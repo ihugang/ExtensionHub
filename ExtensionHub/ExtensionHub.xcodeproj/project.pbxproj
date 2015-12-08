@@ -14,6 +14,10 @@
 		413465731C171AA500A6231C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413465721C171AA500A6231C /* Assets.xcassets */; };
 		413465761C171AA500A6231C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413465741C171AA500A6231C /* LaunchScreen.storyboard */; };
 		413465811C171AA500A6231C /* ExtensionHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413465801C171AA500A6231C /* ExtensionHubTests.swift */; };
+		4134658D1C171B8C00A6231C /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 4134658C1C171B8C00A6231C /* Extensions */; };
+		4134658E1C171B8C00A6231C /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 4134658C1C171B8C00A6231C /* Extensions */; };
+		413465901C171BE200A6231C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134658F1C171BE200A6231C /* StringExtension.swift */; };
+		413465911C171BE200A6231C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134658F1C171BE200A6231C /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,8 @@
 		4134657C1C171AA500A6231C /* ExtensionHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413465801C171AA500A6231C /* ExtensionHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHubTests.swift; sourceTree = "<group>"; };
 		413465821C171AA500A6231C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4134658C1C171B8C00A6231C /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		4134658F1C171BE200A6231C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Extensions/StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		413465671C171AA500A6231C /* ExtensionHub */ = {
 			isa = PBXGroup;
 			children = (
+				4134658C1C171B8C00A6231C /* Extensions */,
 				413465681C171AA500A6231C /* AppDelegate.swift */,
 				4134656A1C171AA500A6231C /* ViewController.swift */,
 				4134656C1C171AA500A6231C /* Main.storyboard */,
@@ -86,6 +93,7 @@
 				413465741C171AA500A6231C /* LaunchScreen.storyboard */,
 				413465771C171AA500A6231C /* Info.plist */,
 				4134656F1C171AA500A6231C /* ExtensionHub.xcdatamodeld */,
+				4134658F1C171BE200A6231C /* StringExtension.swift */,
 			);
 			path = ExtensionHub;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 			files = (
 				413465761C171AA500A6231C /* LaunchScreen.storyboard in Resources */,
 				413465731C171AA500A6231C /* Assets.xcassets in Resources */,
+				4134658D1C171B8C00A6231C /* Extensions in Resources */,
 				4134656E1C171AA500A6231C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4134658E1C171B8C00A6231C /* Extensions in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413465901C171BE200A6231C /* StringExtension.swift in Sources */,
 				4134656B1C171AA500A6231C /* ViewController.swift in Sources */,
 				413465691C171AA500A6231C /* AppDelegate.swift in Sources */,
 				413465711C171AA500A6231C /* ExtensionHub.xcdatamodeld in Sources */,
@@ -210,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413465911C171BE200A6231C /* StringExtension.swift in Sources */,
 				413465811C171AA500A6231C /* ExtensionHubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

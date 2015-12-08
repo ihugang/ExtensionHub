@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let test : String = "I am hugang."
+        print(test.left(6))
+        print(test.right(6))
+        print(test.substring(3, to: 8))
+        
         return true
     }
 
